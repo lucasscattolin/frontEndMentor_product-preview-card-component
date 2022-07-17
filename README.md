@@ -23,14 +23,14 @@ Users should be able to:
 
 ### Screenshots
 
-https://github.com/lucasscattolin/frontEndMentor_product-preview-card-component/blob/main/result/Product%20preview%20card%20component%20(Desktop).png?raw=true
+[Desktop](https://github.com/lucasscattolin/frontEndMentor_product-preview-card-component/blob/main/result/Product%20preview%20card%20component%20(Desktop).png?raw=true)
 
-https://github.com/lucasscattolin/frontEndMentor_product-preview-card-component/blob/main/result/Product%20preview%20card%20component%20(Mobile).png?raw=true
+[Mobile](https://github.com/lucasscattolin/frontEndMentor_product-preview-card-component/blob/main/result/Product%20preview%20card%20component%20(Mobile).png?raw=true)
 
 ### Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/product-preview-card-component-lF2LjLT4wX
-- Live Site URL: https://tranquil-cupcake-242ac4.netlify.app/
+[Solution URL](https://www.frontendmentor.io/solutions/product-preview-card-component-lF2LjLT4wX)
+[Live Site URL](https://tranquil-cupcake-242ac4.netlify.app/)
 
 ## My process
 
