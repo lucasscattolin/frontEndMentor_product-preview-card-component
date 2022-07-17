@@ -1,0 +1,108 @@
+.container-mq {
+    width: 100vw;
+    height: 100vh;
+    @include mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.container {
+    background-color: $white;
+    margin: 3rem 2rem;   
+    border-radius: 1rem;
+
+    @include mobile {
+        max-width: 55rem;
+        min-height: auto;
+        @include grid(2,0)
+    }
+
+    .preview {
+        height: 25rem;
+        border-radius: 1rem 1rem 0 0;
+        background-image: url(../img/image-product-mobile.jpg);
+        background-size: cover;
+        background-position: center center;
+
+        @include mobile {
+            background-image: url(../img/image-product-desktop.jpg);
+            border-radius: 1rem 0 0 1rem;
+            height: 100%;
+        }
+
+    }
+
+    .info {
+        padding: 2rem;
+
+        .type {
+            margin: 1.2rem 0;
+            color: $darkGrayishBlue;
+            text-transform: uppercase;
+
+            letter-spacing: 0.4rem;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 3rem;
+
+        }
+
+        .description {
+            margin: 1.2rem 0 4rem;
+            color: $darkGrayishBlue;
+            font-size: 1.35rem;
+            line-height: 2.4rem;
+
+            @include mobile {
+                margin: 0;
+            }
+        }
+
+        .prices {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+
+            @include mobile {
+                margin: 2rem 0;
+            }
+
+            h2 {
+                color: $darkCyan;
+
+            }
+
+            p {
+                color: $darkGrayishBlue;
+                text-decoration: line-through;
+            }
+        }
+
+        button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            gap: 1rem;
+            border: none;
+            color: $white;
+            width: 100%;
+            border-radius: 1rem;
+            background-color: $darkCyan;
+
+            &:hover {
+                cursor: pointer;
+                background-color: darken($darkCyan, 20);
+            }
+
+            &:focus {
+                background-color: darken($darkCyan, 20);
+            }
+
+        }
+    }
+}
